@@ -1,5 +1,5 @@
 <resources>
-    <!-- Pantalla Mi Noche (LinearLayout con weight) -->
+    <!-- Pantalla Mi Noche  -->
     <string name="titulo_mi_noche"> Mi Noche</string>
     <string name="tarjeta_oscuridad">Índice de oscuridad: 7.8 / 10</string>
     <string name="tarjeta_luna">Fase lunar: Luna nueva (2%)</string>
