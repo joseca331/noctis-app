@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/noctis_fondo"
-    android:fitsSystemWindows="true">
+    android:background="@color/noctis_bg"
+    android:padding="24dp">
 
-    <!-- la esfera, centrada. Lleva contentDescription por accesibilidad -->
+    <!-- Capa Icono de esfera centrado -->
     <ImageView
-        android:layout_width="280dp"
-        android:layout_height="280dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
         android:layout_gravity="center"
-        android:contentDescription="@string/desc_esfera"
-        android:src="@drawable/ic_esfera" />
+        android:contentDescription="@string/titulo_brujula"
 
 
+    android:src="@mipmap/ic_launcher" />
+
+    <!-- Capa: Texto del rumbo superpuesto en el centro -->
     <TextView
-        android:id="@+id/txtRumbo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/rumbo_prueba"
-        android:textColor="@color/noctis_texto"
-        android:textSize="32sp"
+        android:background="@color/noctis_card"
+        android:padding="8dp"
+        android:text="@string/brujula_rumbo"
+        android:textColor="@color/noctis_text"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
-    <!--aviso «Calibrando…» arriba y centrado.
-         Empieza visible; el botón de abajo lo muestra y lo oculta -->
+    <!-- Capa Aviso superior que cambia  -->
     <TextView
-        android:id="@+id/txtCalibrando"
-        android:layout_width="wrap_content"
+        android:id="@+id/tvAvisoCalibrando"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="top|center_horizontal"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/fondo_tarjeta"
+        android:layout_gravity="top"
+        android:background="@color/noctis_warning"
+        android:gravity="center"
         android:padding="12dp"
-        android:text="@string/aviso_calibrando"
-        android:textColor="@color/noctis_acento"
-        android:textSize="16sp"
+        android:text="@string/brujula_calibrando"
+        android:textColor="@color/noctis_text"
+        android:textStyle="bold"
         android:visibility="visible" />
 
-    <!-- botón abajo y centrado que alterna el aviso -->
+    <!-- Capa : Botón inferior -->
     <Button
-        android:id="@+id/btnAlternarAviso"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnToggleCalibracion"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="24dp"
-        android:minHeight="48dp"
-        android:text="@string/btn_alternar_aviso" />
+        android:layout_gravity="bottom"
+        android:text="@string/btn_toggle_calibracion" />
+
 </FrameLayout>

@@ -1,28 +1,51 @@
 <resources>
-    <string name="app_name">NOCTIS</string>
-    <string name="app_motto">El observatorio de bolsillo</string>
+    <!-- Pantalla Mi Noche (LinearLayout con weight) -->
+    <string name="titulo_mi_noche"> Mi Noche</string>
+    <string name="tarjeta_oscuridad">Índice de oscuridad: 7.8 / 10</string>
+    <string name="tarjeta_luna">Fase lunar: Luna nueva (2%)</string>
+    <string name="btn_brujula">Brújula</string>
+    <string name="btn_condiciones">Condiciones</string>
+    <string name="btn_catalogo">Catálogo</string>
+    <string name="btn_estadisticas">Estadísticas</string>
+
+    <!-- Pantalla Brújula  -->
+    <string name="titulo_brujula">Brújula celeste</string>
+    <string name="brujula_rumbo">Norte · 0° (Polaris)</string>
+    <string name="brujula_calibrando">Calibrando sensores…</string>
+    <string name="btn_toggle_calibracion">Simular calibración</string>
+
+    <!-- Pantalla Ficha Objeto -->
+    <string name="orion_nombre">Orión (ORION)</string>
+    <string name="orion_tipo">Constelación · Invierno</string>
+    <string name="orion_desc">Fácil de reconocer por las tres estrellas alineadas de su cinturón.</string>
+    <string name="btn_ver_condiciones">Ver condiciones</string>
+
+    <!-- Pantalla Tabla Condiciones -->
+    <string name="titulo_condiciones">Condiciones de la noche</string>
+    <string name="col_parametro">Parámetro</string>
+    <string name="col_valor">Valor</string>
+    <string name="cond_nubes">Nubosidad</string>
+    <string name="val_nubes">10% (Despejado)</string>
+    <string name="cond_luna">Iluminación lunar</string>
+    <string name="val_luna">2%</string>
+    <string name="cond_viento">Viento</string>
+    <string name="val_viento">8 km/h</string>
+    <string name="cond_humedad">Humedad</string>
+    <string name="val_humedad">55%</string>
+
+    <!-- Pantalla Estadísticas -->
+    <string name="titulo_estadisticas">Estadísticas del diario</string>
+    <string name="stat_total">Total observaciones\n24</string>
+    <string name="stat_constelaciones">Constelaciones\n8</string>
+    <string name="stat_media_luz">Oscuridad media\n8.1 / 10</string>
 
 
+<!-- pantalla adaptacion -->
 
-
-    <string name="btn_mi_noche">Mi noche</string>
-    <string name="btn_adaptacion">Adaptación ocular</string>
-    <string name="btn_acerca_de">Acerca de</string>
-    <string name="url_acerca_de">https://darksky.org</string>
-
-
-    <string name="resultado_pendiente">Sin sesión de adaptación reciente</string>
-    <string name="resultado_completada">Adaptación ocular completada con éxito</string>
-    <string name="resultado_cancelada">Adaptación ocular cancelada</string>
-    <string name="aviso_proximamente">Módulo disponible en la UD02</string>
-
-
-    <string name="titulo_adaptacion">Adaptación a la oscuridad</string>
-    <string name="desc_adaptacion">Selecciona el tiempo y evita mirar luces blancas.</string>
-    <string name="opcion_20m">20 min</string>
-    <string name="opcion_25m">25 min</string>
-    <string name="opcion_30m">30 min</string>
+    <string name="titulo_adaptacion">Adaptación ocular</string>
+    <string name="desc_adaptacion">Evita mirar luces blancas durante la cuenta atrás.</string>
     <string name="btn_iniciar">Iniciar</string>
     <string name="btn_pausar">Pausar</string>
     <string name="btn_cancelar">Cancelar</string>
+
 </resources>

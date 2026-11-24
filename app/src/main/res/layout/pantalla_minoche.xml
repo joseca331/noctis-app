@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/noctis_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/titulo_mi_noche"
+        android:textColor="@color/noctis_text"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Tarjeta Índice de oscuridad -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="1"
+        android:background="@color/noctis_card"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/tarjeta_oscuridad"
+        android:textColor="@color/noctis_text"
+        android:textSize="18sp" />
+
+    <!-- Tarjeta: Fase lunar -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:background="@color/noctis_card"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/tarjeta_luna"
+        android:textColor="@color/noctis_text"
+        android:textSize="18sp" />
+
+    <!-- Fila de botones repartidos proporcionalmente  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+
+
+
+        <Button
+            android:id="@+id/btnIrBrujula"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="@string/btn_brujula" />
+
+
+
+
+        <Button
+            android:id="@+id/btnIrCondiciones"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1"
+            android:text="@string/btn_condiciones" />
+    </LinearLayout>
+
+
+
+
+
+
+
+    <!-- Fila  de botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnIrFicha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="@string/btn_catalogo" />
+
+        <Button
+            android:id="@+id/btnIrEstadisticas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1"
+            android:text="@string/btn_estadisticas" />
+    </LinearLayout>
+
+</LinearLayout>
