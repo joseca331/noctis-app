@@ -1,12 +1,28 @@
 <resources>
-    <string name="titulo_adaptacion">Adaptación ocular</string>
-    <string name="hint_minutos">Minutos (1-60)</string>
+    <string name="app_name">NOCTIS</string>
+    <string name="app_motto">El observatorio de bolsillo</string>
+
+
+
+
+    <string name="btn_mi_noche">Mi noche</string>
+    <string name="btn_adaptacion">Adaptación ocular</string>
+    <string name="btn_acerca_de">Acerca de</string>
+    <string name="url_acerca_de">https://darksky.org</string>
+
+
+    <string name="resultado_pendiente">Sin sesión de adaptación reciente</string>
+    <string name="resultado_completada">Adaptación ocular completada con éxito</string>
+    <string name="resultado_cancelada">Adaptación ocular cancelada</string>
+    <string name="aviso_proximamente">Módulo disponible en la UD02</string>
+
+
+    <string name="titulo_adaptacion">Adaptación a la oscuridad</string>
+    <string name="desc_adaptacion">Selecciona el tiempo y evita mirar luces blancas.</string>
+    <string name="opcion_20m">20 min</string>
+    <string name="opcion_25m">25 min</string>
+    <string name="opcion_30m">30 min</string>
     <string name="btn_iniciar">Iniciar</string>
-    <string name="btn_reanudar">Reanudar</string>
     <string name="btn_pausar">Pausar</string>
     <string name="btn_cancelar">Cancelar</string>
-    <string name="estado_parado">Listo para empezar</string>
-    <string name="estado_corriendo">Adaptando la vista…</string>
-    <string name="estado_pausado">En pausa</string>
-    <string name="estado_terminado">¡Adaptación completada!</string>
 </resources>

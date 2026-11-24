@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/noctis_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+
+
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_adaptacion"
+        android:textColor="@color/noctis_text"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <!-- Explicación breve para el usuario -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="@string/desc_adaptacion"
+        android:textColor="@color/noctis_text_secondary" />
+
+
+
+
+    <!-- Marcador   cuenta atrás -->
+    <TextView
+        android:id="@+id/tvTemporizador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="20:00"
+        android:textColor="@color/noctis_text"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <!-- Contenedor horizontal para colocar los dos botones uno al lado del otro -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--  ancho exactamente al 50% -->
+        <Button
+            android:id="@+id/btnIniciarPausar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="@string/btn_iniciar" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="@string/btn_cancelar" />
+    </LinearLayout>
+
+</LinearLayout>

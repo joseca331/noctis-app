@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="noctis_bg_black">#090A0F</color>
-    <color name="noctis_surface_dark">#161925</color>
-    <color name="noctis_text_white">#FFFFFF</color>
-    <color name="noctis_text_secondary">#9E9E9E</color>
-    <color name="noctis_accent_red">#D32F2F</color>
-    <color name="noctis_star_gold">#FFE082</color>
+    <color name="noctis_bg">#0B1021</color>             <!-- Fondo azul noche profundo -->
+    <color name="noctis_primary">#3B82F6</color>        <!-- Azul para botones principales -->
+    <color name="noctis_text">#F1F5F9</color>           <!-- Blanco suave para lectura nocturna -->
+    <color name="noctis_text_secondary">#94A3B8</color> <!-- Gris azulado para subtítulos -->
 </resources>
-
