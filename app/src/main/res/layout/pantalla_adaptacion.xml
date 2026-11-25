@@ -7,11 +7,6 @@
     android:orientation="vertical"
     android:padding="24dp">
 
-
-
-
-
-    <!-- Título de la pantalla -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,24 +15,40 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-
-
-
-
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="@string/desc_adaptacion"
         android:textColor="@color/noctis_text_secondary" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal">
 
+        <EditText
+            android:id="@+id/etMinutos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:hint="@string/hint_minutos"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textColor="@color/noctis_text"
+            android:textColorHint="@color/noctis_text_secondary" />
 
+        <Button
+            android:id="@+id/btnAplicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_aplicar" />
+    </LinearLayout>
 
-    <!-- Marcador   cuenta atrás -->
     <TextView
         android:id="@+id/tvTemporizador"
         android:layout_width="wrap_content"
@@ -48,14 +59,11 @@
         android:textSize="48sp"
         android:textStyle="bold" />
 
-    <!-- Contenedor horizontal para colocar los dos botones uno al lado del otro -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:orientation="horizontal">
 
-        <!--  ancho exactamente al 50% -->
         <Button
             android:id="@+id/btnIniciarPausar"
             android:layout_width="0dp"

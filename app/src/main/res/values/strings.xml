@@ -48,4 +48,34 @@
     <string name="btn_pausar">Pausar</string>
     <string name="btn_cancelar">Cancelar</string>
 
+    <string name="hint_minutos">Minutos (ej. 20)</string>
+    <string name="btn_aplicar">Aplicar</string>
+
+
+
+
+
+
+
+
+
+
+
+    <string name="app_name">NOCTIS</string>
+    <string name="app_motto">El observatorio de bolsillo</string>
+    <string name="desc_logo">Logotipo de NOCTIS</string>
+
+    <!-- Textos de los tres botones principales -->
+    <string name="btn_mi_noche">Mi noche</string>
+    <string name="btn_adaptacion">Adaptación ocular</string>
+    <string name="btn_acerca_de">Acerca de</string>
+
+    <!-- Enlace web para el Intent implícito -->
+    <string name="url_acerca_de">https://darksky.org</string>
+
+    <!-- Textos del estado que devuelve AdaptacionActivity -->
+    <string name="resultado_pendiente">Sin sesión reciente</string>
+    <string name="resultado_completada">Adaptación completada</string>
+    <string name="resultado_cancelada">Adaptación cancelada</string>
+
 </resources>
